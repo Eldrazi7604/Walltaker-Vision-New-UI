@@ -1,4 +1,4 @@
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 @keyframes cv-channel-select {
 	from {
 		right: 100%
@@ -23,9 +23,8 @@
 	}
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
 .info__2debe::after {
-	content: "ClearVision"" ""7.0.0";
+	content: "Ventaker"" ""1.1.0";
 	color: var(--text-muted);
 	font-size: 12px;
 	line-height: 1.3333333333;
@@ -34,7 +33,7 @@
 }
 
 .leading_c38106::before {
-	content: "ClearVision";
+	content: "Ventaker";
 	position: static;
 	margin-left: 10px;
 	font-size: 16px;
@@ -45,7 +44,7 @@
 }
 
 .leading_c38106::after {
-	content: "7.0.0";
+	content: "1.1.0";
 	position: static;
 	margin-top: 3px;
 	margin-left: 5px;
@@ -56,12 +55,12 @@
 	order: 3
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 html {
 	--__i18n-attachment: "More"
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .app_a3002d {
 	color: rgba(0, 0, 0, 0)
 }
@@ -74,7 +73,7 @@ html {
 	justify-content: center
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .button__201d5 {
 	border-radius: 4px
 }
@@ -165,7 +164,7 @@ html {
 	color: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .checkbox_f525d3 {
 	border-radius: 4px
 }
@@ -175,7 +174,7 @@ html {
 	background-color: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .input__0f084 {
 	background-color: var(--input-background);
 	border: none;
@@ -216,7 +215,7 @@ html {
 	box-shadow: none
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .item__001a7[aria-checked=true] {
 	background-color: rgba(0, 0, 0, 0)
 }
@@ -255,7 +254,7 @@ html {
 	background-color: var(--radio-bar-accent-color, var(--hsl-main-color))
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .slider_a562c8 .bar_a562c8,
 .slider_a562c8 .markDash_a562c8 {
 	background: var(--hsl-card-shading)
@@ -269,7 +268,7 @@ html {
 	filter: drop-shadow(0 0 3px var(--hsl-main-color))
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .container__87bf1 {
 	background: hsl(from var(--interactive-normal) h s l/0.1) !important
 }
@@ -282,7 +281,7 @@ html {
 	fill: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .top_b3f026 .item_b3f026 {
 	--selected-tab-item-color: var(--hsl-hover-color)
 }
@@ -327,7 +326,7 @@ html {
 	margin-left: 5px
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh :is(html, body, .appMount__51fd7) {
 	background: none
 }
@@ -347,7 +346,7 @@ html {
 	background: var(--hsl-background-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 ::-moz-placeholder {
 	font-family: var(--main-font)
 }
@@ -375,7 +374,7 @@ code {
 	color: var(--text-normal)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .bar_c38106 {
 	background-color: rgba(0, 0, 0, 0);
 	padding-left: 0
@@ -386,7 +385,7 @@ code {
 	margin: 0 6px
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .notice__6e2b9 {
 	border-radius: 4px;
 	background: hsl(from var(--custom-notice-background) h s l/0.8)
@@ -400,7 +399,7 @@ code {
 	--custom-notice-background: var(--hsl-streaming-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 :is(.auto__99f8c, .auto_d125d2)::-webkit-scrollbar {
 	width: 14px
 }
@@ -433,7 +432,7 @@ code {
 	background-color: var(--hsl-hover-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .mediaBarProgress_b26b79,
 .mediaBarProgress_b26b79::before,
 .mediaBarProgress_b26b79::after {
@@ -446,7 +445,7 @@ code {
 	background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .chat_f75fb0 {
 	background: rgba(0, 0, 0, 0)
 }
@@ -481,7 +480,7 @@ code {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4))
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh:not(.visual-refresh-chat-input) .form_f75fb0 {
 	margin-top: 0
 }
@@ -581,7 +580,7 @@ code {
 	border-top-color: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .wrapper_cb9592,
 .visual-refresh .channelChatWrapper_cb9592 {
 	background: rgba(0, 0, 0, 0)
@@ -604,7 +603,7 @@ code {
 	background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .divider__908e2 {
 	--divider-color: var(--hsl-main-color)
 }
@@ -642,7 +641,7 @@ code {
 	background: var(--divider-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .avatar_c19a55 {
 	transition: all .3s ease-in-out, transform .1s ease-in-out
 }
@@ -862,7 +861,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .container_f369db {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3))
 }
@@ -983,7 +982,7 @@ code {
 	animation: cv-card-loading 1.5s infinite ease-in-out
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .resizeHandle__01ae2 {
 	background: rgba(0, 0, 0, 0)
 }
@@ -1024,7 +1023,7 @@ code {
 	fill: var(--header-primary)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .newMessagesBar__0f481 {
 	top: 4px;
 	right: 8px;
@@ -1055,7 +1054,7 @@ code {
 	border: none
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .reactions__23977 {
 	border-radius: 4px
 }
@@ -1077,7 +1076,7 @@ code {
 	border-radius: 4px
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .searchResultsWrap_a9e706 {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.3));
 	border: none
@@ -1101,7 +1100,7 @@ code {
 	color: var(--interactive-active)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 :is(.theme-dark, .theme-light) .themed__9293f {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.5))
 }
@@ -1134,7 +1133,7 @@ code {
 	background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .container_c8ffbb {
 	background: none;
 	border: none
@@ -1302,7 +1301,7 @@ code {
 	filter: drop-shadow(0 0 3px rgba(0, 0, 0, 0.7))
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .root__49fc1 {
 	background: var(--hsl-popout-shading);
 	border: none
@@ -1312,7 +1311,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .container_eb2cd2 {
 	border: 2px solid rgba(0, 0, 0, 0);
 	background: var(--hsl-card-shading-inverted)
@@ -1336,7 +1335,7 @@ code {
 	background: var(--hsl-card-shading-inverted)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .keyboardShortcutsModal_f061f6,
 .keybindGroup_f061f6 {
 	background: var(--hsl-popout-shading)
@@ -1352,7 +1351,7 @@ code {
 	box-shadow: inset 0 -2px var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .quickswitcher_ac6cb0 {
 	background: var(--hsl-popout-shading);
 	border: none
@@ -1383,7 +1382,7 @@ code {
 	background: var(--hsl-hover-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .scroller__6fd0e {
 	background: rgba(0, 0, 0, 0)
 }
@@ -1407,7 +1406,7 @@ code {
 	background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .header__0b563 {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.5)) !important
 }
@@ -1488,7 +1487,7 @@ code {
 	background-color: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .container__551b0 {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.25))
 }
@@ -1591,7 +1590,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .container__133bf {
 	background: none;
 	border: none
@@ -1711,7 +1710,7 @@ code {
 	background-color: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .page_c791b2 {
 	background: rgba(0, 0, 0, 0) !important
 }
@@ -1729,7 +1728,7 @@ code {
 	background: var(--hsl-hover-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .applicationStore_f07d62 {
 	background: rgba(0, 0, 0, 0)
 }
@@ -1803,7 +1802,7 @@ code {
 	background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .background__7449f :is(.scrollerBase__99f8c, .scrollerBase_d125d2) {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4))
 }
@@ -1827,7 +1826,7 @@ code {
 	background: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .shopScroll__6db1d,
 .pageWrapper__6db1d {
 	background: rgba(0, 0, 0, 0)
@@ -1859,7 +1858,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .container_a45028 {
 	background: var(--input-background);
 	border-color: rgba(0, 0, 0, 0);
@@ -1880,7 +1879,7 @@ code {
 	background: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .autocomplete__13533 {
 	background: var(--hsl-popout-shading);
 	box-shadow: none
@@ -1908,7 +1907,7 @@ code {
 	background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .popout__3f413,
 .popout__3f413.popoutPositionTop__3f413 {
 	background: var(--hsl-popout-shading);
@@ -1957,7 +1956,7 @@ code {
 	background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .recentMentionsPopout__95796 {
 	background: var(--hsl-popout-shading);
 	box-shadow: none
@@ -2023,7 +2022,7 @@ code {
 	margin: 0
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .menu_c1e9c4 {
 	background: var(--hsl-popout-shading);
 	border: none;
@@ -2095,7 +2094,7 @@ code {
 	background-color: var(--hsl-offline-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .tooltipPrimary__382e7 {
 	background-color: var(--hsl-popout-shading);
 	border: none
@@ -2119,7 +2118,7 @@ code {
 	border-top-color: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .contentWrapper__08434 {
 	background: var(--hsl-popout-shading);
 	border: none
@@ -2241,7 +2240,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .messagesPopoutWrap__45690 {
 	background: var(--hsl-popout-shading);
 	box-shadow: none
@@ -2268,7 +2267,7 @@ code {
 	color: var(--interactive-active)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .container__55c99 {
 	background: var(--hsl-popout-shading);
 	border: none
@@ -2339,7 +2338,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .browser_d98031 {
 	background-color: var(--hsl-popout-shading);
 	box-shadow: none
@@ -2368,7 +2367,7 @@ code {
 	background-color: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .contentWrapper__9c62c {
 	background: var(--hsl-popout-shading);
 	box-shadow: none
@@ -2465,7 +2464,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh :is(.picker__09f65, .picker__09f65.refresh__09f65) {
 	background: var(--hsl-popout-shading)
 }
@@ -2482,7 +2481,7 @@ code {
 	background: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .full-motion .translate_faf9c0 {
 	transform: unset !important
 }
@@ -2574,7 +2573,7 @@ code {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.2))
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .outer_c0bea0:not(.custom-profile-theme) .role_dfa8b6 {
 	background: rgba(0, 0, 0, 0);
 	border-color: rgba(0, 0, 0, 0);
@@ -2601,7 +2600,7 @@ code {
 	border-radius: 4px
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .mask__44b0c rect[fill*="#83838b"] {
 	fill: var(--hsl-offline-color)
 }
@@ -2622,7 +2621,7 @@ code {
 	fill: var(--hsl-streaming-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .layer__960e4 {
 	background-color: rgba(0, 0, 0, 0)
 }
@@ -2666,7 +2665,7 @@ code {
 	background-color: var(--hsl-popout-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .standardSidebarView__23e6b {
 	background: rgba(0, 0, 0, 0)
 }
@@ -2676,7 +2675,7 @@ code {
 	padding: 20px 8px 60px 20px
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .selectedBackground_e681d1 {
 	background: rgba(0, 0, 0, 0)
 }
@@ -2818,8 +2817,8 @@ code {
 }
 
 .container__06283 {
-	-webkit-mask-image: url(https://clearvision.github.io/icons/pill.svg);
-	mask-image: url(https://clearvision.github.io/icons/pill.svg);
+	-webkit-mask-image: url(https://Ventaker.github.io/icons/pill.svg);
+	mask-image: url(https://Ventaker.github.io/icons/pill.svg);
 	background: var(--hsl-main-color) !important
 }
 
@@ -2872,7 +2871,7 @@ code {
 	background: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .settingCard__1a4ef,
 .settingCard__1a4ef.active__1a4ef {
 	background: var(--hsl-card-shading)
@@ -2925,7 +2924,7 @@ code {
 	background-color: hsl(from var(--hsl-success-color) h s l/0.6)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .itemSelected_ec9088 {
 	border: 2px solid var(--hsl-main-color)
 }
@@ -2998,7 +2997,7 @@ code {
 	background: var(--hsl-card-shading)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .panels_c48ade {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.5));
 	border-radius: 0;
@@ -3013,7 +3012,7 @@ code {
 	background-color: rgba(0, 0, 0, 0)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .guilds_c48ade {
 	margin-bottom: var(--custom-app-panels-height);
 	background: rgba(0, 0, 0, 0);
@@ -3087,7 +3086,7 @@ code {
 	background: var(--hsl-main-color)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .wrapperCommon__29444 .mainContent__29444 .name__29444 {
 	flex: 1
 }
@@ -3156,7 +3155,7 @@ code {
 	display: none
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .sidebarList_c48ade {
 	margin-bottom: var(--custom-app-panels-height);
 	border-top-left-radius: 10px;
@@ -3308,7 +3307,7 @@ code {
 	padding: 0 6px 0 1px
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .visual-refresh .privateChannels__35e86 {
 	background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.25))
 }
@@ -3399,7 +3398,7 @@ code {
 	color: var(--interactive-active)
 }
 
-/*! ClearVision v7.0.0 by ClearVision Team */
+/*! Ventaker 1.1.0 */
 .platform-win .sidebar_c48ade {
 	border-radius: 0
 }
@@ -3460,7 +3459,7 @@ code {
 	--user-popout-attachment: var(--background-attachment);
 	--user-modal-image: var(--background-image);
 	--user-modal-attachment: var(--background-attachment);
-	--home-icon: url(https://clearvision.github.io/icons/discord.svg);
+	--home-icon: url(https://Ventaker.github.io/icons/discord.svg);
 	--main-font: "gg sans", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	--code-font: Consolas, "gg mono", "Liberation Mono", Menlo, Courier, monospace;
 	--background-filter: saturate(calc(var(--saturation-factor, 1) * 1));
