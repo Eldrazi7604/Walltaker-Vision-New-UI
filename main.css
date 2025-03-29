@@ -3454,7 +3454,7 @@ code {
 	--streaming-color: #593695;
 	--offline-color: #808080;
 	--background-shading-percent: 100%;
-	--background-image: url(https://clearvision.github.io/images/sapphire.jpg);
+	
 	--background-attachment: fixed;
 	--user-popout-image: var(--background-image);
 	--user-popout-attachment: var(--background-attachment);
