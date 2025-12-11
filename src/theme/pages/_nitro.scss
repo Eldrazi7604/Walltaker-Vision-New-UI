@@ -3,11 +3,9 @@
 #{c(nitro store)} {
   background: transparent;
 }
-#{c(main visualRefresh)} {
-  #{c(nitro wrapper)} {
-    background: transparent;
-    border: none;
-  }
+#{c(nitro wrapper)} {
+  background: transparent;
+  border: none;
 }
 #{c(nitro mainPageScroller)},
 #{c(nitro allPerksScroller)} {
@@ -33,6 +31,10 @@
 }
 #{c(nitro giftButton)} {
   background: transparent;
+}
+// CARD HOVER
+#{c(nitro cardDescription)} {
+  background: cv('shading.popout');
 }
 
 // BUTTONS
@@ -70,7 +72,3 @@
 #{c(nitro footerInnerWrapper)} {
   background: cv('shading.popout');
 }
-/*
-.cardDescription__1f069 {
-  background-image: linear-gradient(180deg, var(--hsl-modal-shading) 50%, hsl(240 calc(1*6.494%) 15.098% /.75) 80%);
-}*/

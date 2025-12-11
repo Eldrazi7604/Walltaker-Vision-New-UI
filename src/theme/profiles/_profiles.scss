@@ -6,52 +6,40 @@
 }
 
 // NO NITRO PROFILE
-#{c(profile outer)} {
-  &:not(#{c(profile themed)}) {
-    background-color: transparent;
-    #{c(profile inner)} {
-      &:is(#{c(profile biteSize)}, #{c(profile fullSize)}) {
-        background: cv('shading.bg');
-      }
-      &#{c(profile biteSize)} {
-        &:before {
-          content: '';
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          background: transparent center/cover no-repeat;
-          background-image: cv('bg.popout.img');
-          background-attachment: cv('bg.popout.attach');
-          filter: cv('bg.popout.filter');
-          z-index: -1;
-        }
-      }
-      &#{c(profile fullSize)} {
-        &:before {
-          content: '';
-          position: absolute;
-          width: 100%;
-          height: 100%;
-          background: transparent center/cover no-repeat;
-          background-image: cv('bg.modal.img');
-          background-attachment: cv('bg.modal.attach');
-          filter: cv('bg.modal.filter');
-          z-index: -1;
-        }
-      }
+#{c(profile userPopout)} {
+  &:not(#{c(profile customTheme)}) {
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: cv('bg.popout.img') cv('bg.popout.pos')/cv('bg.popout.size') no-repeat;
+      background-attachment: cv('bg.popout.attach');
+      filter: cv('bg.popout.filter');
+      z-index: -1;
     }
+  }
+}
+#{c(profile userModal)} {
+  &:not(#{c(profile customTheme)}) {
+    &::before {
+      content: '';
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      background: cv('bg.modal.img') cv('bg.modal.pos')/cv('bg.modal.size') no-repeat;
+      background-attachment: cv('bg.modal.attach');
+      filter: cv('bg.modal.filter');
+      z-index: -1;
+    }
+  }
+}
 
-    // STATUS BUBBLE
-    #{c(profile statusBubbleOuter)} {
-      background: cv('shading.popout');
-    }
-    #{c(profile statusBubbleOuter)} {
-      &::before,
-      &::after {
-        display: none;
-      }
-    }
-    #{c(profile statusBubbleInner)} {
+#{c(profile outer)} {
+  border: none;
+  &:not(#{c(profile customTheme)}) {    
+    background: cv('shading.bg');
+    #{c(profile inner)} {
       background: transparent;
     }
   }
@@ -60,56 +48,102 @@
   background-color: cv('shading.card');
 }
 
-// POPOUT SEND MESSAGE
-:is(#{c(main visualRefreshChatInput)}, :not(#{c(main visualRefreshChatInput)})) {
-  #{c(chatForm channelTextAreaInline)} {
-    background-color: cv('shading.input.bg');
-    border: none;
-    box-shadow: 0 0 2px cv('shading.input.border');
-    &:focus-within {
-      box-shadow: 0 0 2px 2px cv('color.main');
-    }
+// STATUS
+#{c(profile outer)}:not(#{c(profile customTheme)}) {
+  #{c(profile status outer)} {
+    background: cv('shading.popout');
   }
-  // NITRO PROFILE
-  #{c(profile themed)} {
-    #{c(chatForm channelTextAreaInline)} {
-      background: var(--chat-background-default);
-      &:focus-within {
-        box-shadow: 0 0 2px 2px var(--profile-gradient-primary-color);
-      }
-    }
+  #{c(profile status inner)} {
+    background: transparent;
   }
+}
+#{c(profile status outer)} {
+  &::before,
+  &::after {
+    display: none;
+  }
+}
+#{c(profile status tooltip)} {
+  background: cv('shading.popout');
+  box-shadow: none;
+}
+#{c(profile status caretIcon)} #{c(profile status caretFill)} {
+  fill: cv('shading.popout');
 }
 
-// NITRO PROFILE MODAL
-#{c(main visualRefresh)} {
-  #{c(profile themed)} {
-    #{c(tab top)} {
-      #{c(tab item)} {
-        --selected-tab-item-color: var(--profile-gradient-secondary-color);
-        &#{c(tab selected)} {
-          --selected-tab-item-color: var(--profile-gradient-primary-color);
-        }
-      }
-    }
-  }
-}
-#{c(profile themed)} {
-  ::-webkit-scrollbar-thumb {
-    background-color: var(--profile-gradient-primary-color);
-  }
-  #{c(profile noteTextarea)} {
-    &:focus {
+// POPOUT SEND MESSAGE
+#{c(profile customTheme)} {
+  #{c(chatForm channelTextAreaInline)} {
+    background: var(--user-profile-note-background-focus);;
+    box-shadow: 0 0 0 2px var(--user-profile-border);
+    &:focus-within {
       box-shadow: 0 0 2px 2px var(--profile-gradient-primary-color);
     }
   }
 }
 
-// DM SIDE PROFILE
-#{c(profile panel panel)} {
-  &#{c(profile outer)} {
-    &:not(#{c(main customTheme)}) {
-      background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.2));
+// PROFILE STYLES
+#{c(profile modal profile)} {
+  background: cv('shading.bg');
+  outline: none;
+  margin-bottom: 24px;
+  border-radius: 8px;
+}
+#{c(profile modal profileNote)} {
+  #{c(profile modal noteTextarea)} {
+    margin-top: 2px;
+    border-color: cv('shading.input.border');
+    background: cv('shading.input.bg');
+    &:focus:focus,
+    &:focus:hover {
+      background: cv('shading.input.bg');
+      border-color: cv('color.main');
     }
+  }
+}
+
+// NITRO PROFILE MODAL
+#{c(profile customTheme)} {
+  
+  // TABS
+  #{c(tab top)} {
+    #{c(tab item)} {
+      --selected-tab-item-color: var(--profile-gradient-secondary-color);
+      &#{c(tab selected)} {
+        --selected-tab-item-color: var(--profile-gradient-primary-color);
+      }
+    }
+  }
+
+  // BUTTONS
+  #{c(button new primary)} {
+    background-color: var(--control-background-primary-default);
+    border-color: var(--control-border-primary-default);
+  }
+  #{c(button new secondary)} {
+    background-color: var(--control-background-secondary-default);
+    border-color: var(--control-border-secondary-default);
+  }
+
+  // SCROLLBAR
+  ::-webkit-scrollbar-thumb {
+    background-color: var(--profile-gradient-primary-color);
+  }
+
+  // NOTE
+  #{c(profile modal noteTextarea)} {
+    background: var(--user-profile-note-background-focus);
+    &:focus,
+    &:focus:hover {
+      border-color: var(--profile-gradient-primary-color);
+      background: var(--user-profile-note-background-focus);
+    }
+  }
+}
+
+// DM SIDE PROFILE
+#{c(profile userSidebar)} {
+  &:not(#{c(profile customTheme)}) {
+    background: hsl(from cv('shading.bg') h s l/calc(cv('shading.percent') * 0.3));
   }
 }
