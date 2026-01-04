@@ -1,5 +1,4 @@
-/*! Ventaker v1.1.1 */
-@keyframes cv-channel-select {
+/*! ClearVision v7.0.1 by ClearVision Team */@keyframes cv-channel-select {
     from {
     right: 100%}
 to {
@@ -15,9 +14,8 @@ to {
 100% {
     opacity: .66;
 }
-}/*! Ventaker v1.1.1 */
-._2debea61131de3de-info::after {
-    content: "Ventaker" " " "1.1.1";
+}/*! ClearVision v7.0.1 by ClearVision Team */._2debea61131de3de-info::after {
+    content: "ClearVision" " " "7.0.1";
     color: var(--text-muted);
     font-size: 12px;
     line-height: 1.3333333333;
@@ -45,8 +43,7 @@ to {
     color: var(--text-muted);
     order: 3;
 }
-/*! Ventaker v1.1.1 */
-._201d5e8a3c09670a-button {
+/*! ClearVision v7.0.1 by ClearVision Team */._201d5e8a3c09670a-button {
     border-radius: 4px;
 }
 ._201d5e8a3c09670a-lookFilled:is(._201d5e8a3c09670a-colorBrand, ._201d5e8a3c09670a-colorPrimary) {
@@ -170,16 +167,14 @@ to {
     border-color: hsl(from var(--hsl-danger-color) h s l/0.8);
     color: var(--control-text-critical-primary-default);
 }
-/*! Ventaker v1.1.1 */
-._09aca73e6d4b214b-checkbox {
+/*! ClearVision v7.0.1 by ClearVision Team */._09aca73e6d4b214b-checkbox {
     border-radius: 4px;
 }
 ._09aca73e6d4b214b-checkbox._09aca73e6d4b214b-checked {
     border-color: var(--hsl-main-color);
     background-color: rgba(0, 0, 0, 0);
 }
-/*! Ventaker v1.1.1 */
-._72c3859781ebce8f-wrapper {
+/*! ClearVision v7.0.1 by ClearVision Team */._72c3859781ebce8f-wrapper {
     background: var(--hsl-input-shading);
     border-color: var(--hsl-input-border-shading);
 }
@@ -313,6 +308,7 @@ to {
     background: hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.1));
 }
 ._960e4207cea8323e-bg {
+    background: var(--background-image) var(--background-position)/var(--background-size) no-repeat;
     background-attachment: var(--background-attachment);
     filter: var(--background-filter);
     z-index: -1;
@@ -2191,6 +2187,7 @@ code {
     position: absolute;
     width: 100%;
     height: 100%;
+    background: var(--user-popout-image) var(--user-popout-position)/var(--user-popout-size) no-repeat;
     background-attachment: var(--user-popout-attachment);
     filter: var(--user-popout-filter);
     z-index: -1;
@@ -2200,6 +2197,7 @@ code {
     position: absolute;
     width: 100%;
     height: 100%;
+    background: var(--user-modal-image) var(--user-modal-position)/var(--user-modal-size) no-repeat;
     background-attachment: var(--user-modal-attachment);
     filter: var(--user-modal-filter);
     z-index: -1;
@@ -3256,10 +3254,12 @@ code {
     --background-size:  cover;
     --background-attachment:  fixed;
     --background-filter:  saturate(calc(var(--saturation-factor,  1) * 1));
+    --user-popout-image:  var(--background-image);
     --user-popout-position:  var(--background-position);
     --user-popout-size:  var(--background-size);
     --user-popout-attachment:  var(--background-attachment);
     --user-popout-filter:  var(--background-filter);
+    --user-modal-image:  var(--background-image);
     --user-modal-position:  var(--background-position);
     --user-modal-size:  var(--background-size);
     --user-modal-attachment:  var(--background-attachment);
